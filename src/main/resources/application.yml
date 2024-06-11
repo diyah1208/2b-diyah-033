@@ -1,0 +1,22 @@
+bakso:
+  name:
+spring:
+  application:
+    name: 2b-diyah-tugas1
+  datasource:
+    url: jdbc:postgresql://54.219.62.176:5432/allowxtr?schema=polman
+    username: root
+    password: Kalabatj!20
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+  rabbitmq:
+    host: 54.219.62.176
+    port: 5672
+    username: polman
+    password: polman
+server:
+  port: 9090
